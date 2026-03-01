@@ -23,6 +23,13 @@
 
 *(Note:Here is the sample of the responsive website which is live  and the anlysis of thosesample)*
 
+<p align="center">
+  <img src="Screenshot 2026-03-01 224658.png" width="400" title="Main Interface )">
+  <img src="Screenshot 2026-03-01 224710.png" width="400" title="sample image">
+</p>
+<p align="center">
+  <img src="Screenshot 2026-03-01 224759.png" width="250" title="anlysis of sample">
+</p>
 
 ## 📖 Overview
 Microplastic pollution is a growing environmental crisis. This project provides a web-based, AI-driven solution to identify and classify microplastics from water samples (specifically trained on data from the Boise River Basin). 

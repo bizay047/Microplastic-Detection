@@ -511,3 +511,16 @@ input:checked + .slider:before {
         justify-content: center;
     }
 }
+
+/* Fix for the header links so they don't turn blue/purple */
+.header-link {
+    color: var(--text-color); /* Matches the text color of your current theme */
+    text-decoration: none;    /* Removes the default underline */
+    transition: opacity 0.3s ease;
+}
+
+/* Optional: Adds a nice little hover effect so people know they can click it */
+.header-link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}

@@ -4,11 +4,12 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange.svg)
 ![Flask](https://img.shields.io/badge/Flask-API-lightgrey.svg)
-![Frontend](https://img.html/badge/Frontend-HTML%2FCSS%2FJS-yellow.svg)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-yellow.svg)
 
 > **A specialized image detection program that uses Deep Learning to identify and classify microplastics in water samples.**
 
-*(Note: Add a screenshot of your beautiful web interface here!)*
+*(Note:Here is the sample of the responsive website which is live and sample pic and the anlysis of thosesample)*
+
 ## 📖 Overview
 Microplastic pollution is a growing environmental crisis. This project provides a web-based, AI-driven solution to identify and classify microplastics from water samples (specifically trained on data from the Boise River Basin). 
 
@@ -58,3 +59,47 @@ Want to run this project locally on your machine? Follow these step-by-step inst
 ```bash
 git clone [https://github.com/bizay047/Microplastic-Detection.git](https://github.com/bizay047/Microplastic-Detection.git)
 cd Microplastic-Detection
+
+```
+
+
+---
+### Step 2: Install Backend Dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+### Step 3: Add Your Model
+* Ensure your trained TensorFlow model file (e.g., inception_model.h5) is placed in the root * directory. Update the MODEL_PATH variable in app.py to match your filename.
+
+---
+### Step 4: Run the Flask API Server
+```bash
+python app.py
+```
+* The server will start running on http://127.0.0.1:5000.
+
+---
+### Step 5: Launch the Web App
+* Simply double-click the index.html file to open it in your web browser.
+* Drag and drop an image, and watch the AI work!
+
+---
+
+### 🔮 Future Improvements
+
+This project is continuously evolving. Planned future updates include:
+
+* Live Camera Feed: Integrating WebRTC to allow real-time classification through a digital microscope camera.
+
+* Dataset Expansion: Training the model on a wider variety of global water basin samples to improve accuracy.
+
+* Exportable Reports: Adding functionality to generate and download PDF reports of the analysis results.
+
+* Cloud Deployment: Hosting the Flask backend on platforms like Heroku, Render, or AWS for public access.
+
+---
+### 👨‍💻 Credits & Acknowledgements
+
+>**Developed for the mini project for the 6th semester to School of Computer Science & Engineering at KIIT University.
+Under the guidance of: MR. A Ranjit.**

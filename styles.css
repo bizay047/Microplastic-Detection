@@ -91,6 +91,7 @@ body::before {
 
 .sample-images-container {
     display: flex;
+    flex-wrap:wrap;
     gap: 1rem;
     justify-content: center;
     margin-bottom: 1.5rem;
@@ -452,20 +453,60 @@ input:checked + .slider:before {
     margin: 0.5rem 0;
 }
 
+/* --- MOBILE RESPONSIVE LAYOUT --- */
 @media (max-width: 768px) {
-    .footer-content {
+    /* Push everything down slightly so the theme switch doesn't block the title */
+    .container {
+        padding: 1rem;
+        margin-top: 50px; 
+    }
+
+    /* Shrink the header text for mobile screens */
+    .header {
+        padding: 1.5rem 1rem;
+    }
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    .header h2 {
+        font-size: 1.1rem;
+    }
+
+    /* Reduce the thick padding inside the glass cards */
+    .upload-section, .results-section {
+        padding: 1.5rem 1rem;
+    }
+
+    /* Make the sample images slightly smaller to fit better */
+    .sample-image {
+        width: 70px; 
+    }
+
+    /* Shrink the theme switch and tuck it into the corner */
+    .theme-switch-wrapper {
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        transform: scale(0.85); 
+    }
+
+    /* Stack the keyword columns into a single column */
+    .keyword-categories {
         grid-template-columns: 1fr;
     }
-    
+
+    /* Center the footer contents */
+    .footer-content {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
     .footer-section {
         text-align: center;
     }
-    
     .footer-section h3::after {
         left: 50%;
         transform: translateX(-50%);
     }
-    
     .social-links {
         justify-content: center;
     }

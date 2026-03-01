@@ -10,6 +10,17 @@
 
 *(Note:Here is the sample of the responsive website which is live and sample pic and the anlysis of thosesample)*
 
+
+<p align="center">
+  <img src="Bead_002.png" width="200" title="Microplastic Bead">
+  <img src="Fiber_017.png" width="200" title="Microplastic Fiber">
+  <img src="Fragment_001.png" width="200" title="Microplastic Fragment">
+  <img src="Bead_003.png" width="150" title="Microplastic Bead">
+  <img src="Fiber_011.png" width="170" title="Microplastic Fiber">
+ <img src="Bead_001.png" width="150" title="Microplastic Bead">
+  
+</p>
+
 ## 📖 Overview
 Microplastic pollution is a growing environmental crisis. This project provides a web-based, AI-driven solution to identify and classify microplastics from water samples (specifically trained on data from the Boise River Basin). 
 

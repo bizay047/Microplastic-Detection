@@ -8,7 +8,7 @@
 
 > **A specialized image detection program that uses Deep Learning to identify and classify microplastics in water samples.**
 
-*(Note:Here is the sample of the responsive website which is live and sample pic and the anlysis of thosesample)*
+*(Note:Here is the sample of  pic/data that has been used to train the model and used to test the anlysis)*
 
 
 <p align="center">
@@ -20,6 +20,9 @@
  <img src="Bead_001.png" width="150" title="Microplastic Bead">
   
 </p>
+
+*(Note:Here is the sample of the responsive website which is live  and the anlysis of thosesample)*
+
 
 ## 📖 Overview
 Microplastic pollution is a growing environmental crisis. This project provides a web-based, AI-driven solution to identify and classify microplastics from water samples (specifically trained on data from the Boise River Basin). 
